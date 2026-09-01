@@ -62,23 +62,3 @@ print("Model berhasil disimpan sebagai model_regresi.pkl")
 # joblib
 # pandas
 # numpy
-
-from pyngrok import ngrok
-
-ngrok.set_auth_token("3IgKMhfPKRux6o3FF7im5WfcwRW_aZnMxYB1p5XGSDrgEykM")
-
-!pip install streamlit pyngrok
-from pyngrok import ngrok
-import os
-
-# --- Start of fix ---
-# Terminate any existing ngrok tunnels to free up resources
-ngrok.kill()
-# --- End of fix ---
-
-# Jalankan Streamlit di background
-os.system("streamlit run app.py &")
-
-# Buka public URL via ngrok (masukkan token auth ngrok jika diperlukan)
-public_url = ngrok.connect(8501)
-print(f"Akses aplikasi Streamlit di: {public_url}")
