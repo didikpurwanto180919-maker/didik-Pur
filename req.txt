@@ -3,9 +3,3 @@ scikit-learn
 joblib
 numpy
 pandas
-streamlit
-pandas
-scikit-learn
-streamlit
-pandas
-scikit-learn
