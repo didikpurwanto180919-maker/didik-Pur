@@ -11,6 +11,14 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 import joblib
+import streamlit
+import scikit-learn
+import joblib
+import pandas
+import numpy
+import streamlit
+import pandas
+import scikit-learn
 
 # Load dataset (pastikan file dataset.csv sudah di-upload ke Colab)
 df = pd.read_csv('/content/dataset.csv')
@@ -62,3 +70,6 @@ print("Model berhasil disimpan sebagai model_regresi.pkl")
 # joblib
 # pandas
 # numpy
+#streamlit
+#pandas
+#scikit-learn
