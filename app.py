@@ -66,10 +66,8 @@ print("Model berhasil disimpan sebagai model_regresi.pkl")
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile requirements.txt
 # streamlit
-# scikit-learn
 # joblib
 # pandas
 # numpy
 #streamlit
 #pandas
-#scikit-learn
