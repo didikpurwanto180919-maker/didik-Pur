@@ -18,8 +18,6 @@ import pandas
 import numpy
 import streamlit
 import pandas
-import scikit-learn
-
 # Load dataset (pastikan file dataset.csv sudah di-upload ke Colab)
 df = pd.read_csv('/content/dataset.csv')
 
